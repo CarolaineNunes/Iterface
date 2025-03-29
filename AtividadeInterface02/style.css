@@ -1,0 +1,49 @@
+
+/*MUDAR COR DO FUNDO DE TELA INDEX/HTML*/
+body{
+    background-color: rgb(178, 233, 178);
+    border:pink 3px;
+    margin: 30 auto;
+}
+
+
+/*MUDAR A COR DOS TEXTOS*/
+p{
+    text-align: center;
+    color: rgb(71, 7, 7);
+}
+
+
+/*NAO SEI PARA QUE SERVE KKKK (PARA QUE SERVE O FORM)*/
+form{
+    text-align: center;
+}
+
+
+/*MUDAR A COR DAS LISTAS NO INDEX*/
+li{
+    color:gray
+}
+
+
+/*MUDAR A COR DOS LINKS DAS PAGINAS NO INDEX*/
+a{
+    color:brown
+}
+
+
+/*MUDAR A COR DA ESCRITA DENTRO DO BLOCO DE DUVIDAS FORMULARIO*/
+textarea{
+    color:rgb(48, 45, 45)
+}
+
+
+/*MUDAR A COR DO TITULO DO FORMULARIO*/
+h2{
+    color:rgb(35, 65, 35)
+}
+
+/*MUDAR A COR DAS OPCOES DENTRO DO BLOCO DE OPCOES DOS ESTADOS/CIDADES FORMULARIO*/
+option{
+    color:brown
+}

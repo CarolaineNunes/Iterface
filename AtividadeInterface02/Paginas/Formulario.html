@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Requesitos</title>
+        <!--COMANDO PARA MUDAR CORES NO FORMULARIO PELO CSS-->
+        <link rel="Stylesheet" type="text/css" href="../style.css">
+    </head>
+    <body>
+<!--INICIO DO FORMULARIO-->
+<!--ESTRUTURA CAPAZ DE POR O "TITULO" CENTRALIZADO-->
+<h2 align="center">Preencha os requesitos</h2> 
+<form action="arquivo.sql" method="post">
+
+    <!--COMEÇO DO PREENCHIMENTO DOS DADOS-->
+    <p>Nome do Propietário:<input type="text" name="nome" placeholder="Escreva seu nome" size="60"/></p>
+    <br>
+    <p>Data de Nascimento:<input type="date"/></p>
+    <br>
+    <p>Telefone:<input type="tel" placeholder="00000000000" maxlength="11"/></p>
+    <br>
+    <p>Endereço:<input type="text"/></p>
+    <br>
+    <p>CEP: <input type="text"/></p>
+    <br>
+    <p>Email:<input type="email"/></p>
+    <br>
+    <p>Afiliado:<input type="text"/></p>
+    <br>
+
+    <!--ESCOLHA A OPÇAO MELHOR-->
+    <P>Quais são os prudutos que deseja adquirir, selecione:</P>
+        <br>
+        <input type="radio" name="Produto">Equipamentos
+        <br>
+        <input type="radio" name="Produto">Medicamentos
+        <br>
+        <input type="radio" name="Produto">Fertilizante
+        <br>
+        <input type="radio" name="Produto">Agrotoxos
+        <br>
+        <input type="radio" name="Produto">Rações
+    </p>
+    <p>Quantidade:<input type="number"/></p>
+
+    <!--BUSCAR-->
+    <p>Busque por mais opções: <input type="search"/></p>
+    
+
+    <!--DIGITE DUVIDAS= COMENTARIOS-->
+    Possui Alguma Duvida
+    <br>
+    <textarea rows="15" cols="15"></textarea>
+
+
+    <!--SELEÇÃO, DESTINO FINAL PARA ENTRGAR-->
+<P> Destino Final
+    <select>
+        <option></option>
+        <option value="Minas Gerais">Minas Gerais</option>
+        <option value="Mato Grosso">Mato Grosso</option>
+        <option value="Brasilia">Brasilia</option>
+        <option value="Goias">Goias</option>
+        <option value="Bhaia">Bhais</option>
+    </select>
+</P>
+
+
+<!--CHECKBOX-->
+<p>
+    <input type="checkbox"/>
+    Deseja finalizar o pedido
+</p>
+
+<!--FIELDSET-->
+<fieldset>
+    <p>
+    <legend align="center">Confirme Seu Numero e Email</legend> </p>
+    <p>
+    <label>Número: <input type="text"></label>
+    <label>Email: <input type="text"></label>
+    </p>
+    </fieldset>
+
+
+<!--BOTÃO RESER E ENVIAR-->
+<input type="submit"/>
+<br>
+ Finalizar
+ <br>
+<input type="reset"/> 
+<br>
+Não finalizar
+</p>
+<br> 
+<br>
+<br>
+<br>
+<!--VOLTAR A PAG INICIAL-->
+<a href="../index.html" target="_blank">
+    Acesse a pagina original
+</a>
+</form>
+    </body>
+</html>
