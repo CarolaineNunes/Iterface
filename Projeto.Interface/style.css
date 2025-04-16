@@ -1,0 +1,278 @@
+/*Importação de fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic&display=swap');
+/*Responsividade do css para adaptar da web para o celular*/
+@media screen{
+
+}
+/*Configuraçoês gereia das paginas*/
+*{
+    margin:0 auto;
+    box-sizing: border-box;
+}
+/*MUDAR A COR DE FUNDO DA TELA*/
+body{
+    background-color: pink;
+    /*border: black 3px;*/
+    margin: 30 auto;
+    background-image: (url('./Imagem/CONSULTÓRIO\ LUXO.jpg'));
+
+}
+
+/*MUDAR A COR DOS TEXTOS*/
+p{
+   /*Tirei o text align  center*/
+    color: rgb(88, 39, 39);
+    font-family:"Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*PARA QUE SERVE?*/
+form{
+    text-align: center;
+}
+
+/*MUDAR A COR DAS LISTAS NO INDEX*/
+li{
+    color:rgb(111, 52, 92);
+}
+
+/*MUDAR A COR DAS LETRAS NO BLOCO DE DUVIDAS*/
+textarea{
+    color:rgb(52, 28, 52);
+}
+
+/*MUDAR COR DE TITULO NO FORMULARIO*/
+h2{
+    color: black;
+    font-size: 20px;
+}
+
+/*MUDAR A COR DAS OPCOES DENTRO DO BLOCO DE OPCOES DOS ESTADOS/CIDADES FORMULARIO*/
+option{
+    color: purple;
+}
+
+/*MUDAR A COR DOS LINKS DAS PAGINAS NO INDEX*/
+a{
+    color: rgb(40, 20, 7);
+  
+}
+
+/*Chamar id do meu menu*/
+#bodyindex{
+    background-color:rgb(128, 103, 107) ;
+    text-align: left;
+    border-width: 10px;
+    margin: 20px auto;
+    border: rgb(118, 60, 118) 1px;
+    font-family: "Noto Sans Gunjala Gondi" sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo do nav */
+  nav {
+    background-color: rgb(131, 89, 96);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Menu principal */
+  .menu {
+    list-style: none;
+    display: flex;
+    padding: 0;
+  }
+  
+  /* Itens principais */
+  .menu > li {
+    position: relative;
+  }
+  
+  .menu > li > a {
+    display: block;
+    padding: 5px 10px;
+    color: rgb(239, 163, 204);
+    text-decoration: none;
+    background-color:rgb(131, 89, 96);
+    transition: background 0.3s;
+  }
+  
+  .menu > li > a:hover {
+    background-color: rgb(128, 103, 107);
+  }
+  
+  /* Submenu */
+  .menu li ul {
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 0px;
+    background-color: blue;
+    list-style: none;
+    min-width: 200px;
+    z-index: 1000;
+  }
+  
+  /* Itens do submenu */
+  .menu li ul li a {
+    display: block;
+    padding: 12px 16px;
+    color: rgb(210, 126, 171);
+    text-decoration: none;
+    background-color: #444;
+    border-bottom: 1px solid white;
+  }
+  
+  .menu li ul li a:hover {
+    background-color: rgb(249, 219, 224);
+  }
+  
+  /* Mostrar submenu ao passar o mouse */
+  .menu li:hover ul {
+    display: block;
+  }
+  .menu p{
+    color: white;
+  }
+
+
+
+
+
+
+
+
+
+.rodape{
+    background-color: rgb(131, 89, 96);
+    color:white;
+    height: auto;
+    width: 100%;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rodape p{
+    margin-bottom: 5px;
+    color: rgb(239, 163, 204);
+}
+
+.rodape div{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin:auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+}
+
+.rodape.span{
+    font-size: 15px;
+}
+
+.direitos{
+    width: 100%;
+    background-color: rgb(60, 10, 27);
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+
+
+.footer {
+    background-color: rgb(131, 89, 96);
+    color: #fff;
+    padding: 30px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    margin: 10px;
+    min-width: 200px;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: black;
+  }
+  
+  .footer-section p, .footer-section a {
+    font-size: 14px;
+    color:rgb(239, 163, 204) ;
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover {
+    color: pink;
+  }
+
+
+
+  .banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('./Imagem/CONSULTÓRIO\ LUXO.jpg') center 30%/cover no-repeat;
+    height: 550px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner h1 {
+    font-family: 'arial', cursive;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+header{
+    background-color:rgb(243, 201, 201);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*text-align: center;
+    color: brown;
+    
+  
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+    
+    
+    */

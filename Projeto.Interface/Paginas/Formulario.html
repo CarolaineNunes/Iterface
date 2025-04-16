@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Requesitos</title>
+    <link rel="Stylesheet" type="text/css" href="../style.css">
+    <!--Link para por logo no topo da pagina-->
+    <link rel="icon" type="image/png" href="../Icones/favorite_24dp_000000_FILL0_wght400_GRAD0_opsz24.png"/>
+    </head>
+    <body>
+    <!--ESTRUTURA CAPAZ DE DEIXAR O TEXTO CENTRALIZADO-->
+    <h2 align="center">Preencha a fixa de dados</h2>
+    <form action="arquivo.sql" method="post">
+    <!--INICIO FORMULARIO-->
+<p>Nome Paciente:<input type="text" nome="nome" placeholder="Escreva seu nome"></p>
+<p>Data De Nascimento:<input type="date"></p>
+<p>Numero de Telefone:<input type="tel" placeholder="00000000000" maxlength="11"></p>
+<p>Email:<input type="email"></p>
+<p>Endereço:<input type="tex"></p>
+<p>CEP:<input type="text"></p>
+<p>Gênero:<input type="text"></p>
+<br>
+    <!--ECOLHER PROCEDIMENTO-->
+    <P>Historico Medico</P>
+<p>
+    <input type="radio" name="Produto">Algum Tipo de Alergia?
+    <br>
+    <input type="radio" name="Produto">Condiçoes de Saúde Preexistentes?
+    <br>
+    <input type="radio" name="Produto">Algum Medicamento em Uso?
+    <br>
+    <input type="radio" name="Produto">Realizou Alguma Cirurgia Anterior?
+    <br>
+    <input type="radio" name="Produto">Hitorico de Doença de Pele?
+    <br>
+    <input type="radio" name="Produto">Problemas com Cicatrização?</p></P>
+<br>
+<!--ESCOLHA O PROCEDIMENTO-->
+<p>Escolha o Procedimento:</p>
+<p>
+<select>
+    <option></option>
+    <option value="Full Face">Full Face</option>
+    <option value="Mesoterapia">Mesoterapia</option>
+    <option value="Rinomodelação">Rinomodelação</option>
+    <option value="Fototerapia">Fototerapia</option>
+    <option value="Radiofrequência">Radiofrequência</option>
+    <option value="Peling">Peling</option>
+    <option value="Botox">Botox</option>
+</select></p>
+<!--QUANTIDADE DE PROCEDIMENTO-->
+<p>Quantas Seringas:<input type="search"></p>
+<!--Caixa de duvidas-->
+<p>Sobre o Procedimento escolhido, possui algum tipo de duvidas? Digite no espaço abaixo</p>
+<p><textarea rows="10" cols="10"></textarea></p>
+<!--CHECKBOX DOS PROCEDIMENTOS SE ACEITA SEGUIR OU NÃO-->
+<br>
+<br>
+<p>Proceguir?</p>
+<p>
+    Sim
+    <input type="checkbox">
+    Não
+     <input type="checkbox"></p>
+<!--FIELDSET-->
+<fieldset>
+<p>
+    <legend align="center">Confirme Seu Numero e Email</legend> </p>
+<p>
+    <label>Número: <input type="text"></label>
+    <label>Email: <input type="text"></label></p>
+    <br>
+    </fieldset>
+    <!--ESPECIFICANDO O TIPO DE IDA-->
+    <br>
+<p>Retorno ou Primeiro Atendimento?</p>
+<p><input typy="text"></p>
+<p>
+    <!--BOTÃO DE ENVIAR OU REDEFINIR-->
+    <input type="submit">
+    <br>
+    Finalizar
+    <br>
+    <input type="reset">
+    <br>
+    Não Finalizar</p>
+    <br>
+    <br>
+    <br>
+    <!--VOLTAR AO INICIO DA PAGINA INICIAL-->
+    <a href="../index.html" target="_blank">
+        Acesse a Pagina Original.
+    </a>
+        </form>
+    </body>
+</html>
