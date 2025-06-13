@@ -1,0 +1,32 @@
+/*.body{
+    background-color:rgb(162, 155, 140);
+}
+
+h2{
+    background-color: rgb(205, 203, 194);
+}
+
+button{
+    background-color: blueviolet;
+}
+footer{
+    background-color: blue;
+}
+h1{
+    background-color: rgb(164, 160, 136);
+}
+
+.title{
+    background-color:dimgrey;
+}
+
+div{
+    background-color: rgb(164, 160, 136);
+}*/
+
+.img-procedimento {
+  width: 250px;       /* largura fixa */
+  height: 250px;      /* altura fixa */
+  object-fit: cover;  /* corta e adapta a imagem mantendo a proporção */
+  border-radius: 8px; /* opcional: bordas arredondadas */
+}
